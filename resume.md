@@ -2,6 +2,12 @@
 * INSTALL
 
 ````
+npm run build
+
+npm run start
+
+npm run dev
+
 npm install react-icons --save
 
 npm install @fullhuman/postcss-purgecss --save

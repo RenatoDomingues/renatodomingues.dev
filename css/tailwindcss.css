@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 
-body{
+.bg-body{
     background: #FFE7E7; 
 }
 .bg-network{
