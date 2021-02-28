@@ -1,9 +1,9 @@
 
 # RenatoDomingues (resume)
 
-Esse projeto é o codigo-fonte do curriculo online de Renato Domingues, disponivel no vervel em: https://projetosgithub.vercel.app/
+[![HitCount](https://hits.dwyl.com/RenatoDomingues/RenatoDomingues/renatodominguesdev.svg)](http://hits.dwyl.com/RenatoDomingues/RenatoDomingues / renatodominguesdev)
 
-[![HitCount](https://hits.dwyl.com/RenatoDomingues/RenatoDomingues / renatodominguesdev.svg)](http://hits.dwyl.com/RenatoDomingues/renatodominguesdev)
+Esse projeto é o codigo-fonte do curriculo online de Renato Domingues, disponivel no vervel em: https://projetosgithub.vercel.app/
 
 ![Preview](https://github.com/RenatoDomingues/renatodomingues.dev/blob/master/print.png?raw=true)
 
