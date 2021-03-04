@@ -1,6 +1,6 @@
 
 import React from 'react'
-import getUser from '../utils/getUser'
+//import getUser from '../utils/getUser'
 import PageHead from '../components/pageHead'
 import Hero from '../components/Hero/index'
 import Summary from '../components/summary'
@@ -73,7 +73,18 @@ const Index = ({ repos, user }) => {
 
 export async function getServerSideProps(context){
 
-    const { repos, user } = await getUser('renatodomingues')
+    //console.log(process.env.API_URL)
+
+    const request = await fetch(process.env.API_URL +'/api/getUser')
+
+    /*const data = await request.json()
+    console.log(data)
+    // => to do tests.
+    */
+
+    //const { repos, user } = await getUser('renatodomingues') =>when trere is no separate backebd and frontend.
+
+    const { repos, user } = await request.json()
 
     return {
         props: {

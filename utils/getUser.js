@@ -1,4 +1,5 @@
 
+/*
 const getUser = async(username) => {
 
     const resUser = await fetch('https://api.github.com/users/renatodomingues' + username)
@@ -27,3 +28,6 @@ const getUser = async(username) => {
     }
 }
 export default getUser
+
+//=>this code above, it´s only when there is no spacing backend with frontend.
+*/

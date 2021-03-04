@@ -1,4 +1,5 @@
 
+/*
 import React from 'react'
 import getUser from '../../utils/getUser'
 
@@ -9,3 +10,6 @@ const apiGetUser = async(req, res) => {
     res.send(data)
 }
 export default apiGetUser
+
+//=>this code above, it´s only when there is no spacing backend with frontend.
+*/
